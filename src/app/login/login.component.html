@@ -1,0 +1,20 @@
+<div class='eschool'>
+   <h1>Electronic School Login</h1>
+</div>
+
+
+<div class='container-form'>
+   <form #loginForm='ngForm'> 
+      <div class="form-group">
+         <label for="username">Username</label>
+         <input type="text" ngModel name="username" class="form-control" id="username" placeholder="Username">
+      </div>
+      <div class="form-group">
+         <label for="password">Password</label>
+         <input type="password" ngModel name="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <div class='container-submit-button'>
+         <button (click)="loginCheck(loginForm)" type="submit" id='submit-button'>Login</button> 
+      </div>
+   </form>
+</div>

@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.container-fluid {
+    padding: 0 20px !important;
+ }
+
+ .search {
+    margin-top: 12px;
+    margin-right: 10px;
+ }
+ 
+ .navbar-brand {
+    font-size: 25px;
+ }
+
+ .add-new-student {
+     cursor:pointer;
+     font-size: larger;
+ }
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #4FC3A1;
+    padding: 30px 0;
+
+}
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.stud-elements:hover {
+    color: #4FC3A1;
+	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+
+.td-student {
+    font-weight: 200;
+}
+
+.navbar-header {
+    padding-left: 10px;
+}
+
+.navbar-right {
+    padding-right: 30px;
+}
+
+.container-close-button {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-button, .delete-button{
+    margin:5px;
+    font-family: "Montserrat", sans-serif; 
+    
+    height: 20px;
+    color:#FFFFFF;
+    position: relative;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  
+}
+
+.edit-button{
+    width: 40px;
+    background-color: #4FC3A1;
+}
+
+.delete-button{
+    width: 60px;
+    background-color: rgb(247, 64, 64);
+}
+
+#searchName {
+    width: 160px;
+}
+
+.edit-button:hover, .delete-button:hover{
+    opacity: 0.3;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.edit-button:active{
+    opacity: 1;
+        box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+          inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+        color: #FFFFFF;
+}
+
+.delete-button:active{
+    opacity: 1;
+        box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+          inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+        color: #FFFFFF;
+}

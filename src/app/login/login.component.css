@@ -1,0 +1,39 @@
+ *{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color:#4FC3A1; */
+ }
+
+
+.container-form{
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eschool{
+    margin-top: 50px;
+    height: 130px;
+    text-align: center;
+}
+
+.container-submit-button{
+    float: right;
+}
+
+#submit-button{
+    font-family: "Montserrat", sans-serif;
+    color:black;
+
+    border-radius: 7px;  
+    transition: all 0.1s ease-in-out;
+
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+        6px 6px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+#submit-button:hover{
+    opacity: 0.3;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
